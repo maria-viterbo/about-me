@@ -1,0 +1,108 @@
+body {
+  font-family: 'Poppins';
+}
+
+/* Container */
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #9AE1DD;
+  text-align: center;
+}
+
+
+.white-section {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+/* Headings */
+.big-heading {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.colored-heading {
+  color: #21B0A9;
+  font-family: 'Titan One';
+  padding-top: 40px;
+}
+
+.black-heading {
+  color: black;
+  font-family: 'Titan One';
+  padding-top: 40px;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-nav {
+  width: 428px;
+}
+
+.navbar-brand {
+  font-family: 'Meddon';
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #202020;
+}
+
+/* Title */
+
+.grad-img {
+  border-radius: 100%;
+  width: 50%;
+}
+
+.headingtitle-div {
+padding: 0;
+}
+
+.title-paragraph {
+  margin-bottom: 0;
+}
+
+/* Projects */
+
+#projects {
+  color: #21B0A9;
+}
+
+.project-photos {
+  width: 100%;
+  padding: 0 8% 15%;
+}
+
+.project-container {
+  padding: 3% 10%;
+}
+
+.carousel-indicators {
+  background: #21B0A9;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+  .iphone-img {
+    position: static;
+  }
+}
